@@ -1,0 +1,11 @@
+POST http://localhost:5000/nations
+Content-Type: application/json
+
+{
+  "name": "Vietnam",
+  "description": "This is vietnam"
+}
+
+###
+
+GET http://localhost:5000/players
